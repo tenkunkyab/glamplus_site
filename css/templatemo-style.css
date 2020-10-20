@@ -181,6 +181,11 @@ a:focus {
   color: #07ABEC;
 }
 
+.tm-hero-title img {
+  width: 100%;
+  max-width: 700px;
+}
+
 .tm-hero-subtitle {
   color: #07ABEC;
   /*text-shadow: 0 0 3px #07ABEC, 0 0 5px black;*/
