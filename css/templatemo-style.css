@@ -258,13 +258,13 @@ a:focus {
   padding-bottom: 60px;
 }
 
-.tm-gallery-container .slick-track {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  width: 100% !important;
-  justify-content: space-around;
-}
+/*.tm-gallery-container .slick-track {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  max-width: 1200px;*/
+/*  width: 100% !important;*/
+/*  justify-content: space-around;*/
+/*}*/
 
 .tm-gallery-container .slick-slide {
   width: 400px !important;
@@ -273,7 +273,7 @@ a:focus {
 
 .tm-gallery-container .slick-slide figure {
   width: 400px !important;
-  min-width: 100%;
+  min-width: 90%;
   height: 100%;
 }
 
