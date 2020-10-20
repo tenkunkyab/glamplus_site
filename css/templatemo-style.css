@@ -78,7 +78,7 @@ a:focus {
 }
 
 .navbar-brand {
-  color: #8f8f8f;
+  color: black;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -97,7 +97,7 @@ a:focus {
 }
 
 .tm-nav-link {
-  color: #8f8f8f;
+  color: black;
 }
 
 .tm-navbar.scroll .tm-nav-link {
@@ -169,6 +169,7 @@ a:focus {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  background: rgba(0,0,0,0.5);
 }
 
 .tm-hero-text-container-inner {
@@ -182,6 +183,9 @@ a:focus {
 
 .tm-hero-subtitle {
   color: #07ABEC;
+  /*text-shadow: 0 0 3px #07ABEC, 0 0 5px black;*/
+  font-size: 50px;
+  font-weight: 500;
 }
 
 .tm-intro-next {
@@ -226,7 +230,8 @@ a:focus {
 .tm-section-title {
   font-size: 2.6rem;
   font-weight: normal;
-  color: #3496d8;
+  margin-bottom: 0 !important;
+  /*color: #3496d8;*/
 }
 
 .tm-intro-text {
@@ -249,8 +254,27 @@ a:focus {
 }
 
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.tm-gallery-container .slick-track {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100% !important;
+  justify-content: space-around;
+}
+
+.tm-gallery-container .slick-slide {
+  width: 400px !important;
+  height: 300px;
+}
+
+.tm-gallery-container .slick-slide figure {
+  width: 400px !important;
+  min-width: 100%;
+  height: 100%;
 }
 
 .tm-gallery-item {
@@ -433,6 +457,7 @@ figure.effect-honey:hover h2 i {
   position: relative;
   padding-bottom: 50px;
   padding-top: 160px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
 .tm-underline {
@@ -462,7 +487,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-contact-item-link i,
 .tm-contact-item-link span {
-  color: #3496d8;
+  color: white;
   transition: all 0.3s ease;
 }
 
