@@ -551,6 +551,18 @@ p {
   line-height: 1.9;
 }
 
+.adviser-image {
+  height: 400px;
+  width: 400px;
+}
+
+.advisers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .tm-intro-text-container {
     padding-left: 65px;
