@@ -39,6 +39,15 @@
                     <li class="nav-item">
                         <a class="nav-link tm-nav-link" href="#contact">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link tm-nav-link"
+                            href="https://app.glamplus.in/"
+                            target="_blank"
+                        >
+                            Login
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -341,7 +350,7 @@
     // Close mobile menu after click
     $('#tmNav a').on('click', function(){
       $('.navbar-collapse').removeClass('show');
-    })
+    });
 
     // Scroll to corresponding section with animation
     $('#tmNav').singlePageNav();
@@ -359,6 +368,9 @@
           window.location.hash = hash;
         });
       } // End if
+      if(event.target.href === "https://app.glamplus.in/") {
+        window.location.replace("https://app.glamplus.in/");
+      }
     });
 
     // Pop up
