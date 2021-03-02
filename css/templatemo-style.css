@@ -563,6 +563,17 @@ p {
   align-items: center;
 }
 
+.policy {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.policy a {
+  color: white;
+}
+
 @media (min-width: 768px) {
   .tm-intro-text-container {
     padding-left: 65px;
