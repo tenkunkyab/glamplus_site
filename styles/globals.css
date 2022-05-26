@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .free-btn {
+    @apply bg-primary rounded-[10px] text-[#ffffff];
+  }
+}
+
+@layer utilities {
+  .navbar-shadow {
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+  }
+  .landing1-height {
+    min-height: calc(100vh - 111px);
+  }
+  .box-shadow {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+  }
+  .customer-review-shadow {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  }
+}
