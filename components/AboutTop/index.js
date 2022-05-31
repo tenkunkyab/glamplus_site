@@ -14,7 +14,7 @@ function AboutTop({ className }) {
           Manage. Experience. Grow.
         </h1>
         <h1 className="text-[#5A5A5A] text-[16px] md:text-[18px] lg:text-[20px] text-center lg:text-left">
-          Lorem Ipsum has been the industry's standard dummy text ever since the
+          Lorem Ipsum has been the industry&apos;s standard dummy text ever since the
           1500s, when an unknown printer took a galley of type and scrambled it
           to make a type specimen book. write the mission and purpose
         </h1>

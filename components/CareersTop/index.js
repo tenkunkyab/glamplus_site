@@ -17,7 +17,7 @@ function CareersTop({ className }) {
         <div className="flex flex-col gap-[10px] items-center lg:items-start">
           <h1 className="bigText text-center">Let’s Grow Together</h1>
           <h1 className="text-[#5A5A5A] text-[16px] md:text-[18px] lg:text-[20px] xl:text-[24px] text-center lg:text-left">
-            Glamplus is hiring! If you're interested in helping to build SaaS
+            Glamplus is hiring! If you&apos;re interested in helping to build SaaS
             software to change the way service businesses operate, we want to
             hear from you. We are a small and fast growing team.
           </h1>
