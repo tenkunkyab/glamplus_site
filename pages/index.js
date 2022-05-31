@@ -5,6 +5,7 @@ import Grow from "../components/landingPage/Grow";
 import Learn from "../components/landingPage/Learn";
 import Main from "../components/landingPage/Main";
 import Solution from "../components/landingPage/Manage";
+import Services from "../components/Services"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Solution />
       <Experience />
       <Grow />
+      <Services/>
       <Customers />
       <Learn />
     </div>
