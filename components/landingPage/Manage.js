@@ -14,8 +14,8 @@ function Manage() {
           <p className="text-[12px] font-[500] text-primary sm:text-[14px] md:text-[16px] lg:text-[30px]">MANAGE</p>
           <h1 className="text-[16px] font-[600] sm:text-[20px] md:text-[24px] lg:text-[48px]">Focus on your client</h1>
           <p className="text-[#6C6C6C] text-[10px] leading-[15px] font-[400] tracking-[-0.017em] sm:text-[13px] sm:leading-[20px] md:text-[15px] md:leading-[25px] lg:text-[18px] lg:leading-[30px]">
-            We get it. Running a salon is hard. You're always on the go, you have a million things to do, and your
-            clients have so many questions, but they don't come with instruction manuals!
+            We get it. Running a salon is hard. You&apos;re always on the go, you have a million things to do, and your
+            clients have so many questions, but they don&apos;t come with instruction manuals!
           </p>
           <div className="m-auto relative w-full max-w-[400px] h-[200px] my-8 md:hidden">
             <Image src="/LandingPageImg/bookingMobile.png" layout="fill" />

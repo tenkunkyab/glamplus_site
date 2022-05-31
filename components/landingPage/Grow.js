@@ -26,7 +26,7 @@ function Grow() {
               Grow your business with loyal clients
             </h1>
             <p className="text-[#6C6C6C] text-[10px] leading-[15px] font-[400] tracking-[-0.017em] sm:text-[13px] sm:leading-[20px] md:text-[15px] md:leading-[25px] xl:text-[18px] xl:leading-[30px]">
-              That's why, we've built our software around making sure that you can use your salon as a marketing tool.
+              That&apos;s why, we&apos;ve built our software around making sure that you can use your salon as a marketing tool.
             </p>
             <div className="my-8 flex items-center justify-center md:hidden">
               <Image src="/LandingPageImg/growMobile.png" width="300" height="327" />

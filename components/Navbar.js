@@ -8,13 +8,11 @@ function Navbar() {
       <div className="hidden lg:flex h-full items-center justify-between px-10 max-w-[1800px] m-auto">
         <div className="flex items-center gap-6">
           <Image src="/logo.png" width="112" height="76" />
-          <Link href="/#">
-            <a className="">Features</a>
-          </Link>
+          <Link href="/">Features</Link>
           <Link href="/#">Beauty Products</Link>
           <Link href="/#">Pricing</Link>
           <Link href="/#">About</Link>
-          <Link href="/#">Careers</Link>
+          <Link href="/careers.html">Careers</Link>
         </div>
         <div>
           <Link href="/#">Log In</Link>
