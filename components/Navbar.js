@@ -12,7 +12,7 @@ function Navbar() {
           <Link href="/#">Beauty Products</Link>
           <Link href="/#">Pricing</Link>
           <Link href="/#">About</Link>
-          <Link href="/careers.html">Careers</Link>
+          <Link href="/careers">Careers</Link>
         </div>
         <div>
           <Link href="/#">Log In</Link>
