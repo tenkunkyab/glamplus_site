@@ -15,10 +15,11 @@ function Customers() {
         <div
           className={`mover-1 lg:relative ${pauseAnimation ? "pause-animation" : "start-animation"} xl:animation-none`}
         >
-          {reviews.map((review) => {
+          {reviews.map((review, index) => {
             return (
               <div
-                key={review.imageUrl}
+                key={index}
+                // key={review.imageUrl}
                 className="w-[402px] rounded-[20px] customer-review-shadow p-6 xxl:w-[462px] xl:p-10"
               >
                 <div className="pb-6">

@@ -3,12 +3,16 @@ import React, { useState } from "react";
 
 function Brand() {
   const [pauseAnimation, setPauseAnimation] = useState(false);
+  const triggerAnimationPause = () => {
+    setPauseAnimation(!pauseAnimation)
+  }
   return (
     <div className="mt-20 mb-20 lg:mt-10">
-      <h1 className="text-[20px] text-center mb-10 font-[600] md:text-[35px] lg:text-[48px]">Brands That Love Us</h1>
+      <h1 className="text-[20px] text-center mb-10 font-[600] md:text-[35px] lg:text-[48px]">Buy From Your Favourite Brands Here</h1>
       <div
         className={`tech-slideshow min-w-fit p-2 m-auto lg:max-w-[1200px]`}
-        onClick={() => setPauseAnimation(!pauseAnimation)}
+        onMouseOver={triggerAnimationPause}
+        onClick={triggerAnimationPause}
       >
         <div
           className={`mover-1 lg:relative ${pauseAnimation ? "pause-animation" : "start-animation"} lg:animation-none`}
