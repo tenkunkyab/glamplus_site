@@ -34,7 +34,7 @@ function Careers() {
         />
       </div>
       {/* componnets */}
-      <div className="relative  m-auto flex flex-col items-center gap-[80px] md:gap-[120px] xl:gap-[150px] px-[30px] py-[30px] md:py-[100px] ">
+      <div className="relative  max-w-[1800px] m-auto flex flex-col items-center gap-[80px] md:gap-[120px] xl:gap-[150px] px-[30px] py-[30px] md:py-[100px] ">
         <CareersTop />
           <Culture className="px-[20px] md:px-[10px]"/>
           <button className="button w-full md:w-[586px] max-w-[586px] text-[12px] sm:text-[15px] md:text-[20px] lg:text-[25px] xl:text-[32px] lg:p-[20px]">

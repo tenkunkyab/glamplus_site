@@ -4,21 +4,21 @@ import Image from "next/image";
 const Address = ({ className }) => {
   return (
     <div
-      className={`flex flex-col items-center sm:items-start p-[10px] ${className}`}
+      className={`flex flex-col items-start p-[10px] ${className}`}
     >
       <h3 className="footer-title">Address</h3>
-      <div className="flex flex-col items-center sm:items-start gap-[15px]">
-        <span className="text-center sm:text-left">
+      <div className="flex flex-col items-start gap-[15px]">
+        <span className="text-left text-[#CDCDCD]">
           2nd floor, Harsha complex, 23rd Main, HSR Layout, Sector 2, Opposite
           Airtel Office, Bangalore-560102
         </span>
-        <div className="flex flex-col items-center sm:items-start">
-          <h3 className="text-base opacity-90">Phone</h3>
-          <div className="text-sm opacity-80">+91 9930841244</div>
+        <div className="flex flex-col items-start">
+          <h3 className="footer-title sm:text-base">Phone</h3>
+          <div className="text-sm text-[#CDCDCD]">+91 9930841244</div>
         </div>
-        <div className="flex flex-col items-center sm:items-start">
-          <h4 className="text-base opacity-90">Email</h4>
-          <span className="text-sm opacity-80">support@glamplus.in</span>
+        <div className="flex flex-col items-start">
+          <h4 className="footer-title sm:text-base">Email</h4>
+          <span className="text-sm text-[#CDCDCD]">support@glamplus.in</span>
         </div>
       </div>
     </div>
@@ -28,10 +28,10 @@ const Address = ({ className }) => {
 const Links = ({ className }) => {
   return (
     <div
-      className={`flex flex-col items-center sm:items-start p-[10px] ${className}`}
+      className={`flex flex-col items-start p-[10px] ${className}`}
     >
       <h3 className="footer-title">Links</h3>
-      <ul className="flex flex-col items-center sm:items-start gap-[10px] text-base opacity-80">
+      <ul className="flex flex-col items-start gap-[10px] text-base text-[#CDCDCD]">
         <li>Products</li>
         <li>Features</li>
         <li>Pricing</li>
@@ -44,10 +44,10 @@ const Links = ({ className }) => {
 const Legal = ({ className }) => {
   return (
     <div
-      className={`flex flex-col items-center sm:items-start p-[10px] ${className}`}
+      className={`flex flex-col items-start p-[10px] ${className}`}
     >
       <h3 className="footer-title">Legal</h3>
-      <ul className="flex flex-col items-center sm:items-start gap-[10px] text-base opacity-80">
+      <ul className="flex flex-col items-start gap-[10px] text-base text-[#CDCDCD]">
         <li>Privacy Policy</li>
         <li>Refund Policy</li>
         <li>Terms and Conditions</li>
@@ -59,7 +59,7 @@ const Legal = ({ className }) => {
 const FollowUsOn = ({ className }) => {
   return (
     <div
-      className={`flex flex-col items-center sm:items-start p-[10px] ${className}`}
+      className={`flex flex-col items-start p-[10px] ${className}`}
     >
       <h3 className="footer-title">Follow us on</h3>
       <ul className="grid grid-row grid-cols-4 justify-items-center gap-[30px]">
@@ -108,14 +108,14 @@ export default function Footer({ className }) {
       {/* top section */}
       <div className="flex flex-col w-full m-auto max-w-[1500px] text-white px-[10px] py-[20px] sm:p-[30px]">
         {/* address links legal social */}
-        <div className="flex flex-col-reverse xl:flex-row gap-[50px] items-center sm:items-start md:justify-between">
+        <div className="flex flex-col-reverse xl:flex-row gap-[50px]  items-start md:justify-between">
           <Address className="w-full xl:w-[30%] max-w-[300px]" />
           <div className="w-full xl:w-[70%] grid sm:grid-row grid-cols-1 lg:grid-cols-2 gap-[50px] md:gap-[50px] lg:gap-[50px]">
-            <div className="flex flex-col sm:flex-row gap-[50px] sm:gap-[100px] lg-gap[10px] lg:justify-between ">
+            <div className="flex flex-row gap-[50px] sm:gap-[100px] lg-gap[10px] lg:justify-between ">
               <Links />
               <Legal />
             </div>
-            <div className="w-full flex flex-row justify-center sm:justify-start lg:justify-end " >
+            <div className="w-full flex flex-row justify-start lg:justify-end " >
               <FollowUsOn/>
             </div>
           </div>
