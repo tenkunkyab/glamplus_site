@@ -3,8 +3,8 @@ import React from "react";
 
 function Brand() {
   return (
-    <div className="mt-20 mb-20 lg:mt-10">
-      <h1 className="text-[20px] text-center mb-10 font-[600] md:text-[35px] lg:text-[48px]">Brands That Love Us</h1>
+    <div className="py-24">
+      <h1 className="text-[20px] text-center mb-10 font-[600] md:text-[35px] lg:text-[48px]">Buy From Your Favourite Brands Here</h1>
       <div className="flex justify-center items-center gap-8 max-w-[1200px] m-auto md:gap-20">
         <Image src="/LandingPageImg/brand/1.png" width="199" height="83" />
         <Image src="/LandingPageImg/brand/2.png" width="85px" height="70" />

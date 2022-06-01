@@ -4,7 +4,7 @@ import React from "react";
 function Grow() {
   return (
     <div className="bg-[#F5F7FA] ">
-      <div className="max-w-[1600px] relative h-full m-auto">
+      <div className="max-w-[1600px] relative h-full m-auto py-24">
         <div className="hidden md:inline">
           <Image src="/LandingPageImg/grow1.png" layout="fill" priority />
           <div className="rounded-[15px] w-[303px] h-[170x] p-4 bg-white border absolute bottom-10 right-10 xl:p-8 xl:w-[380px] xl:h-[205px]">

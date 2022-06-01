@@ -37,24 +37,42 @@ export default Customers;
 
 const reviews = [
   {
-    name: "The Vanity Crave",
+    name: "Irich Salon",
     place: "Bangalore",
     imageUrl: "/#1",
     description:
-      "“Bahut hi easy software hai use karne me, aap salon pe ho ya nahi mobile ke through salon ki poori activity monitor kar sakte hai, abhi notebook se chutkara mil gya hai and customer se directly hum apne whatsapp pe engage kar sakte hai”",
+      "“Abhi mereko customer ko apne offer bhejne ho chahe SMS se ya whatsapp, Glamplus se bahut aasaani se data upload karo and send karo. Kaafi achee features hai and pricing bhi achhi hai”",
   },
   {
     name: "The Vanity Crave",
     place: "Bangalore",
     imageUrl: "/#2",
     description:
-      "“Bahut hi easy software hai use karne me, aap salon pe ho ya nahi mobile ke through salon ki poori activity monitor kar sakte hai, abhi notebook se chutkara mil gya hai and customer se directly hum apne whatsapp pe engage kar sakte hai”",
+      "When we started our salon chain in Bangalore we were desperately looking for the software and the we got to know about Glam plus, Now its been months we were using it had no issues till now, all the datas is been managed so well with correct info also the best part about the glam plus is they are open to suggestions and they always works towards it. Thank you Glamplus.",
   },
   {
-    name: "The Vanity Crave",
-    place: "Bangalore",
+    name: "Signature Salon & Spa",
+    place: "Kolkata",
     imageUrl: "/#3",
     description:
-      "“Bahut hi easy software hai use karne me, aap salon pe ho ya nahi mobile ke through salon ki poori activity monitor kar sakte hai, abhi notebook se chutkara mil gya hai and customer se directly hum apne whatsapp pe engage kar sakte hai”",
+      "I am running signature salon & spa at saltlake since july 2021 & during this period we don't use any software and I don't have much idea about those software, also one & two software companies person visit in my salon but they dont cover all features which spa needs but after hearing about Glamplus from the executive, I found the software quite effective and solves my daily appointment problems, Initially it took me 1 week to understand but now I am using it everyday and making full use of it. I am satisfied with their service and cost effectiveness. Thank you Glamplus.",
   },
+  {
+    name: "Amazing cuts and Salon",
+    place: "Surat",
+    imageUrl: "/#3",
+    description:
+      "I have started using Glamplus software recently since last 20 days for my daily salon appointments, best thing that i like about the software is campaign management on whatsApp which has resulted in generating higher sales for my shop. Team is very supportive and open to suggestions. Invoice management, WhatsApp booking and membership features are so simple to use and sell to clients that I can engage my clients for longer duration.",
+  },
+  {
+    name: "Blue Belle",
+    place: "Kolkata",
+    imageUrl: "/#4",
+    description:
+      "I am running an Unisex Salon at Kolkata since last 5 yrs and in during this period I have used at least 2-3 software for my Salon but those were not economical specially in this pandemic situation when every penny matters. Hearing about Glamplus and learning it as a one stop shop for Salon solutions with regard to Billing, Inventory management, Expense Staff attendance and Incentive management, Analytics etc. Now I am using it everyday and making full use of it. I would highly recommended others to try Glamplus and see the benefits that one can derive at the minimalistic cost.",
+  },
+
+  
+
+
 ];
