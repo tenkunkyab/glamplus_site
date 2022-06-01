@@ -4,7 +4,7 @@ const cultureData = [
   {
     id: 1,
     imgSrc: "/icons/transparency.svg",
-    imgClass: "h-[150px] w-[150px]",
+    imgClass: "w-[140px] h-[140px] sm:h-[150px] sm:w-[150px]",
     title: "We are Transparent",
     description:
       " We believe in fostering a culture of trust, transparency, quality, and meaningful autonomy.",
@@ -13,7 +13,7 @@ const cultureData = [
   {
     id: 2,
     imgSrc: "/icons/humble.svg",
-    imgClass: "h-[150px] w-[150px]",
+    imgClass: "w-[140px] h-[140px] sm:h-[150px] sm:w-[150px]",
     title: "We are Humble",
     description:
       "We believe that teamwork makes dream work. We're not here to win personal glory, but to succeed together.",
@@ -22,7 +22,7 @@ const cultureData = [
   {
     id: 3,
     imgSrc: "/icons/learning.svg",
-    imgClass: "h-[150px] w-[150px]",
+    imgClass: "w-[140px] h-[140px] sm:h-[150px] sm:w-[150px]",
     title: "We are Learners",
     description:
       " We're a team of relentless problem-solvers with a hunger to learn, inspire, and drive value.",
@@ -31,7 +31,7 @@ const cultureData = [
   {
     id: 4,
     imgSrc: "/icons/love.svg",
-    imgClass: "h-[150px] w-[150px]",
+    imgClass: "w-[140px] h-[140px] sm:h-[150px] sm:w-[150px]",
     title: "We Love What We Do",
     description:
       " We are data people. We love to present our facts in a way that is clear, concise, and easy to understand.",

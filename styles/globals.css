@@ -38,10 +38,6 @@
   .boxShadowSkyBlue {
     box-shadow: 0px 0px 26px rgba(11, 172, 240, 0.2);
   }
-  
-  .button {
-    @apply md:text-lg font-bold tracking-wide bg-sky-500 hover:bg-sky-600 text-white p-3 focus:outline-none rounded-lg ;
-  }
 
   .componentTitle{
     @apply text-[18px] sm:text-[22px] text-[#9D9D9D] font-[500] text-center;
@@ -79,6 +75,6 @@
   }
 
   .bigText{
-    @apply text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[60px] font-[700] text-[#263741] tracking-[-0.017em];
+    @apply text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[60px] font-[600] text-[#263741] tracking-[-0.017em];
   }
 }
