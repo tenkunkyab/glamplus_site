@@ -51,7 +51,7 @@ const servicesData = [
 
 function Services({ className }) {
   return (
-    <div className={`flex flex-col lg:gap-[30px] ${className}`}>
+    <div className={`flex flex-col lg:gap-[30px] ${className} py-24`}>
       {/* heading */}
       <div
         className={`m-auto lg:w-[70%] xl:w-[50%] flex justify-center`}

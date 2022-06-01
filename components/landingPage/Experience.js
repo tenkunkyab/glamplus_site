@@ -3,7 +3,7 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="h-full py-10 max-w-[1900px] m-auto md:min-h-[600px] xl:min-h-[800px]">
+    <div className="h-full py-44 max-w-[1900px] m-auto md:min-h-[600px] xl:min-h-[800px]">
       <div className="flex justify-between items-center mg:gap-16">
         <div className="hidden md:flex md:flex-1 md:justify-center md:items-center">
           <div className="relative md:w-[300px] xl:w-[450px] ">
