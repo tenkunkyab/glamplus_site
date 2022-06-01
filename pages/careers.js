@@ -16,7 +16,7 @@ function Careers() {
   return (
     <div className="w-full overflow-hidden max-w-[1800px] relative mx-auto">
       {/* BG images */}
-      <div className="w-full absolute z-0">
+      <div className="w-[1600px] md:w-full lg:w-full xl:w-full absolute z-0">
         <Image
           style={{ zIndex: -10 }}
           src="/images/careersBG1.svg"
@@ -25,7 +25,7 @@ function Careers() {
           layout="responsive"
         />
       </div>
-      <div className="w-full absolute bottom-0 z-0">
+      <div className="w-[1600px] md:w-full lg:w-full xl:w-full absolute bottom-0 z-0">
         <Image
           src="/images/careersBG2.svg"
           width={10}
