@@ -18,7 +18,6 @@ function Careers() {
       {/* BG images */}
       <div className="w-[1600px] md:w-full lg:w-full xl:w-[2000px] absolute z-0">
         <Image
-          style={{ zIndex: -10 }}
           src="/images/careersBG1.svg"
           width={1}
           height={1}

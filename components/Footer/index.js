@@ -110,7 +110,7 @@ export default function Footer({ className }) {
         {/* address links legal social */}
         <div className="flex flex-col-reverse xl:flex-row gap-[50px]  items-start md:justify-between">
           <Address className="w-full xl:w-[30%] max-w-[300px]" />
-          <div className="w-full xl:w-[70%] grid sm:grid-row grid-cols-1 lg:grid-cols-2 gap-[50px] md:gap-[50px] lg:gap-[50px]">
+          <div className="w-full xl:w-[70%] grid sm:grid-row grid-cols-1 md:grid-cols-2 gap-[20px] md:gap-[70px] lg:gap-[50px]">
             <div className="flex flex-row gap-[50px] sm:gap-[100px] lg-gap[10px] lg:justify-between ">
               <Links />
               <Legal />
