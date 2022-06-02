@@ -10,7 +10,7 @@ function Faq() {
       <div className="p-4 max-w-[1600px] m-auto">
         {lists.map((list, index) => {
           return (
-            <div className="group py-2 border-b-2 outline-none accordion-section" tabIndex={index}>
+            <div className="group py-2 border-b-2 outline-none accordion-section" tabIndex={index} key={index}>
               <div className="group flex justify-between px-4 py-3 items-center transition ease duration-300 cursor-pointer pr-10 relative">
                 <div className="text-[14px] transition ease duration-300 md:text-[18px] lg:text-[40px]">
                   {list.title}{" "}
