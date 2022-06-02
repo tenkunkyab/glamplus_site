@@ -1,10 +1,13 @@
+import Image from "next/image";
 import React from "react";
+import ContactForm from "../components/ContactForm";
 import CompareFeatures from "../components/pricingPage/CompareFeatures";
+import Faq from "../components/pricingPage/FAQ";
 
 function pricing() {
   return (
-    <div className="font-poppins">
-      <h1 className="text-[20px] font-[600] text-center mt-6">
+    <div className="font-poppins pb-20 relative">
+      <h1 className="font-[600] mt-8 text-[20px] leading-[25px] mb-4 text-center sm:text-[28px] sm:leading-[34px] md:text-[34px] md:leading-[40px] md:mb-8 lg:text-[60px] lg:leading-[74px]">
         Amazing Plans to Boost your <br /> Customer Experience
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-10">
@@ -12,24 +15,24 @@ function pricing() {
           return (
             <div
               key={pricing.title}
-              className={`w-[300px] rounded-[17px] pricing-shadow bg-white border-t-[19px] p-4`}
+              className={`w-[300px] rounded-[17px] pricing-shadow bg-white border-t-[19px] p-4 lg:w-[385px]`}
               style={{ borderColor: pricing.color }}
             >
               <h1 className={`text-[#C56A4E] text-[20px]`} style={{ color: pricing.color }}>
                 {pricing.title}
               </h1>
-              <h1 className="font-bold text-[30px]">&#8377; {pricing.price}</h1>
+              <h1 className="font-bold text-[30px] lg:text-[48px]">&#8377; {pricing.price}</h1>
               <p className="text-[#9D9D9D] text-[12px] mb-2">{pricing.duration} Days </p>
-              <ul className="list-disc pl-4 mb-8">
+              <ul className="list-disc pl-4 mb-8 lg:leading-[30px]">
                 {pricing.list.map((lis, index) => (
                   <li key={index} style={{ color: pricing.color }}>
-                    <span className="text-black text-[14px]">{lis}</span>
+                    <span className="text-black text-[14px] lg:text-[18px]">{lis}</span>
                   </li>
                 ))}
               </ul>
               <button
                 style={{ backgroundColor: pricing.color }}
-                className="text-white w-full h-[33px] rounded-[10px] text-[14px] mt-4"
+                className="text-white w-full h-[33px] rounded-[10px] text-[14px] mt-4 lg:h-[66px] lg:text-[20px] lg:mt-6"
               >
                 Get It Now
               </button>
@@ -45,7 +48,14 @@ function pricing() {
           Try It Out
         </button>
       </div>
-      <CompareFeatures />
+      <div className="absolute bottom-0">
+        <Image src="/images/pricingBg2.svg" layout="fill" />
+      </div>
+      <div className="relative right-0">
+        <CompareFeatures />
+        <Faq />
+        <ContactForm className="px-[15px] md:px-[30px] lg:px-[50px]" />
+      </div>
     </div>
   );
 }
