@@ -6,21 +6,21 @@ const impactData = [
     imgSrc: "/images/moneyJar.png",
     description:
       "SaaS startup Glamplus raises Rs 2Cr in pre-Series-A led by Inflection Point Ventures.",
-    link: "#",
+    link: "https://yourstory.com/2021/05/funding-saas-startup-glamplus-raises-pre-seriesa-round/amp",
   },
   {
     id: 2,
     imgSrc: "/images/winklr.png",
     description:
-      "SaaS startup Glamplus raises Rs 2Cr in pre-Series-A led by Inflection Point Ventures.",
-    link: "#",
+      "IPV backs salon-focused SaaS startup Glamplus with Rs 2-crore funding",
+    link: "https://www.business-standard.com/article/companies/ipv-backs-salon-focused-saas-startup-glamplus-with-rs-2-crore-funding-121052401319_1.html",
   },
   {
     id: 3,
     imgSrc: "/images/gravity.png",
     description:
-      "SaaS startup Glamplus raises Rs 2Cr in pre-Series-A led by Inflection Point Ventures.",
-    link: "#",
+      "Glamplus raises ₹2 cr in pre-Series-A funding round",
+    link: "https://www.thehindubusinessline.com/companies/glamplus-raises-2-cr-in-pre-series-a-funding-round/article34632678.ece",
   },
 ];
 

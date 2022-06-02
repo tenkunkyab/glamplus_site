@@ -6,7 +6,6 @@ import useWindowSize from "../../utils/useWindowSize";
 
 function ContactForm({ className }) {
   const { width } = useWindowSize();
-
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -17,9 +16,19 @@ function ContactForm({ className }) {
       note: "",
     },
     validate: validateForm,
-    onSubmit: () => {
-      alert("Form submitted");
-      setSubmitted(true);
+    onSubmit: (values, { resetForm }) => {
+      let body = "Hello,\nKindly reach out to the below details\n";
+      body += Object.entries(values).map((item) => `\n${item[0]} : ${item[1]}`);
+      window
+        .open(
+          "mailto:cx@glamplus.in?subject=" +
+            encodeURIComponent("New Client interested") +
+            "&body=" +
+            encodeURIComponent(body),
+          "_blank"
+        )
+        .focus();
+      resetForm();
     },
   });
 
@@ -39,8 +48,12 @@ function ContactForm({ className }) {
             borderTopRightRadius: width < 1100 ? "10px" : "0px",
           }}
         >
-          <h1 className="text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[60px] font-[500] mb-4">Contact Us</h1>
-          <span className="text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">Just write to us if you have any questions or remarks.</span>
+          <h1 className="text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[60px] font-[500] mb-4">
+            Contact Us
+          </h1>
+          <span className="text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">
+            Just write to us if you have any questions or remarks.
+          </span>
         </div>
         <div className="w-[100%] lg:w-[70%] bg-white py-[20px] px-[20px] md:px-[50px] rounded-b-lg lg:rounded-r-lg">
           <div className="py-[20px] grid gap-[20px] md:gap-[50px] grid-cols-1 md:grid-cols-2  mx-auto  text-gray-900">
@@ -104,11 +117,7 @@ function ContactForm({ className }) {
             />
           </div>
           <div className="w-[100%] flex flex-row justify-items-center mt-[50px] mb-[30px]">
-            <button
-              type="submit"
-              className="button mx-auto  w-full"
-              onClick={formik.handleSubmit}
-            >
+            <button type="submit" className="button mx-auto  w-full" onClick={formik.handleSubmit}>
               Submit
             </button>
           </div>

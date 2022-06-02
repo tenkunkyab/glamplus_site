@@ -2,6 +2,10 @@ import Image from "next/image";
 import React from "react";
 
 function Manage() {
+  const redirectUser = () => {
+    window.open("https://app.glamplus.in", "_blank").focus();
+  };
+
   return (
     <div id="features" className="bg-[#F5F7FA] h-full py-32 lg:min-h-[0px]">
       <div className="pb-10">
@@ -28,7 +32,10 @@ function Manage() {
             ))}
           </ul>
           <div className="flex justify-center mt-8 md:justify-start">
-            <button className="free-btn text-[12px] w-[306px] h-[36px] lg:h-[66px] lg:text-[20px]">
+            <button
+              className="free-btn text-[12px] w-[306px] h-[36px] lg:h-[66px] lg:text-[20px]"
+              onClick={redirectUser}
+            >
               Start Managing Now
             </button>
           </div>
