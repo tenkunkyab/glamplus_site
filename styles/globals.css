@@ -55,7 +55,7 @@
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
   }
   .boxShadow {
-    box-shadow: 0px 0px 5px 0px gray;
+    box-shadow: 0px 0px 24px 0px #000000;
   }
   .boxShadowSkyBlue {
     box-shadow: 0px 0px 26px rgba(11, 172, 240, 0.2);
@@ -70,7 +70,6 @@
     overflow: hidden;
     transform: translate3d(0, 0, 0);
   }
-
   .tech-slideshow > div {
     display: flex;
     gap: 60px;
