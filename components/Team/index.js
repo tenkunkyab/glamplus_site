@@ -82,7 +82,7 @@ function Team({ className, cta }) {
           onClick={cta}
         >
           <div
-            className={`w-[150px] h-[150px] md:w-[180px] md:h-[180px] xl:w-[200px] xl:h-[200px] circularImg boxShadowSkyBlue`}
+            className={`w-[150px] h-[150px] md:w-[180px] md:h-[180px] xl:w-[200px] xl:h-[200px] circularImg boxShadowSkyBlue bg-white`}
           >
             <Image className="rounded-full" src={"/icons/plus.svg"} width={"80%"} height={"80%"} alt="Instagram icon" />
           </div>
