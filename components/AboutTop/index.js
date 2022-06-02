@@ -20,7 +20,7 @@ function AboutTop({ className }) {
         </h1>
       </div>
       {/* right or bottom*/}
-      <div className="lg:flex-1 w-[269px] h-[202px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] mx-auto  relative">
+      <div className="lg:flex-1 w-[269px] h-[202px] sm:w-[350px] sm:h-[250px] md:w-[400px] md:h-[300px] lg:w-[500px] lg:h-[500px] mx-auto  relative">
         <Image
           src="/images/handsGroup.png"
           layout="fill"
