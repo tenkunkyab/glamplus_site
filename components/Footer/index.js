@@ -1,5 +1,6 @@
 import Divider from "../Divider";
 import Image from "next/image";
+import Link from "next/link";
 
 const Address = ({ className }) => {
   return (
@@ -28,16 +29,16 @@ const Links = ({ className }) => {
       <h3 className="footer-title">Links</h3>
       <ul className="flex flex-col items-start gap-[10px] text-base text-[#CDCDCD]">
         <li>
-          <a href="https://marketplace.glamplus.in">Products</a>
+          <Link href="https://marketplace.glamplus.in">Products</Link>
         </li>
         <li>
-          <a href="/#features">Features</a>
+          <Link href="/#features">Features</Link>
         </li>
         <li>
-          <a href="/pricing.html">Pricing</a>
+          <Link href="/pricing.html">Pricing</Link>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <Link href="/about.html">About</Link>
         </li>
       </ul>
     </div>
@@ -71,22 +72,22 @@ const FollowUsOn = ({ className }) => {
       <h3 className="footer-title">Follow us on</h3>
       <ul className="grid grid-row grid-cols-4 justify-items-center gap-[30px]">
         <li className="flex flex-col items-center">
-          <a href="https://www.instagram.com/glamplusofficial/" target="_blank">
+          <a href="https://www.instagram.com/glamplusofficial/" target="_blank" rel="noreferrer">
             <Image src="/icons/instagram-240.svg" width={50} height={50} alt="Instagram icon" />
           </a>
         </li>
         <li className="flex flex-col items-center">
-          <a href="https://www.facebook.com/glamplus2/" target="_blank">
+          <a href="https://www.facebook.com/glamplus2/" target="_blank" rel="noreferrer">
             <Image src="/icons/facebook-240.svg" width={50} height={50} alt="Facebook icon" />
           </a>
         </li>
         <li className="flex flex-col items-center">
-          <a href="https://www.linkedin.com/company/glamplus/mycompany/" target="_blank">
+          <a href="https://www.linkedin.com/company/glamplus/mycompany/" target="_blank" rel="noreferrer">
             <Image src="/icons/linkedin-240.svg" width={50} height={50} alt="Iinkedin icon" />
           </a>
         </li>
         <li className="flex flex-col items-center">
-          <a href="https://twitter.com/glamplus20" target="_blank">
+          <a href="https://twitter.com/glamplus20" target="_blank" rel="noreferrer">
             <Image src="/icons/twitter-240.svg" width={50} height={50} alt="Twitter icon" />
           </a>
         </li>
