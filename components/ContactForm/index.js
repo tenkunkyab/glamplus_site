@@ -33,7 +33,7 @@ function ContactForm({ className }) {
   });
 
   return (
-    <div className={`w-full flex flex-col gap-[20px] lg:gap-[50px] ${className}`}>
+    <div className={`w-full max-w-[1600px] m-auto flex flex-col gap-[20px] lg:gap-[50px] ${className}`}>
       {/* heading */}
       <div className={`m-auto flex justify-center`}>
         <span className="bigText text-center">Still have more questions?</span>
