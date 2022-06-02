@@ -11,7 +11,7 @@ function Navbar() {
           <Image src="/logo.png" width="112" height="76" />
           <Link href="#features">Features</Link>
           <Link href="https://marketplace.glamplus.in/">Beauty Products</Link>
-          <Link href="/#">Pricing</Link>
+          <Link href="/pricing">Pricing</Link>
           <Link href="/about.html">About</Link>
           <Link href="/careers.html">Careers</Link>
         </div>
