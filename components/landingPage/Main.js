@@ -2,6 +2,10 @@ import Image from "next/image";
 import React from "react";
 
 function Main() {
+  const redirectUser = () => {
+    window.open("https://app.glamplus.in", "_blank").focus();
+  };
+
   return (
     <div className="relative h-full pb-10 md:min-h-[400px] lg:landing1-height lg:pb-10">
       <Image src="/LandingPageImg/bg1.jpg" layout="fill" priority />
@@ -18,7 +22,10 @@ function Main() {
             <p className="text-[#6C6C6C] font-[500] text-[8px] leading-[12px] w-[250px] tracking-[-0.017em] sm:text-[16px] sm:leading-[20px] sm:w-[500px] lg:text-[20px] lg:w-[600px] lg:leading-[30px]">
               Simplify operations, personalize communications, and grow your business with Glamplus’s ultimate platform.
             </p>
-            <button className="free-btn text-[12px] mt-4 w-[186px] h-[33px] sm:w-[225px] sm:h-[48px] sm:text-[16px] lg:w-[306px] lg:h-[66px] lg:text-[20px]">
+            <button
+              className="free-btn text-[12px] mt-4 w-[186px] h-[33px] sm:w-[225px] sm:h-[48px] sm:text-[16px] lg:w-[306px] lg:h-[66px] lg:text-[20px]"
+              onClick={redirectUser}
+            >
               Get Started For Free
             </button>
           </div>

@@ -8,16 +8,22 @@ function Navbar() {
     <div className="h-[43px] font-poppins lg:h-[111px] navbar-shadow z-20 relative">
       <div className="hidden lg:flex h-full items-center justify-between px-10 max-w-[1800px] m-auto">
         <div className="flex items-center gap-6">
-          <Image src="/logo.png" width="112" height="76" />
-          <Link href="#features">Features</Link>
+          <Link href="/">
+            <Image src="/logo.png" width="112" height="76" className="cursor-pointer" />
+          </Link>
+          <Link href="/#features">Features</Link>
           <Link href="https://marketplace.glamplus.in/">Beauty Products</Link>
-          <Link href="/pricing">Pricing</Link>
+          <Link href="/pricing.html">Pricing</Link>
           <Link href="/about.html">About</Link>
           <Link href="/careers.html">Careers</Link>
         </div>
-        <div>
+        <div className="flex items-center">
           <Link href="https://app.glamplus.in">Log In</Link>
-          <button className="free-btn ml-8 h-[66px] w-[197px]">Try For Free</button>
+          <Link href="https://app.glamplus.in">
+            <a className="free-btn ml-8 h-[60px] w-[197px] block p-4 bg-primary text-white text-center rounded-lg m-4">
+              Try for Free
+            </a>
+          </Link>
         </div>
       </div>
       <div className="flex h-full px-6 items-center justify-between lg:hidden">
@@ -36,7 +42,7 @@ function Navbar() {
             <Image src="/logo.png" width="54" height="38" />
           </li>
           <li className="border-b border-inherit">
-            <Link href="#features">
+            <Link href="/#features">
               <a className="block p-4">Features</a>
             </Link>
           </li>
@@ -46,7 +52,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
+            <Link href="/pricing.html">
               <a className="block p-4">Pricing</a>
             </Link>
           </li>
@@ -66,7 +72,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
+            <Link href="https://app.glamplus.in">
               <a className="block p-4 bg-primary text-white text-center rounded-lg m-4">Try for Free</a>
             </Link>
           </li>
