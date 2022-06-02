@@ -3,7 +3,7 @@ import React from "react";
 
 function CompareFeatures() {
   return (
-    <div className="">
+    <div className="w-full max-w-[1600px] m-auto flex flex-col gap-[20px] lg:gap-[50px] px-[15px] md:px-[30px] lg:px-[50px]">
       <h1 className="font-[600] text-[20px] leading-[25px] mb-4 text-center sm:text-[28px] sm:leading-[34px] md:text-[34px] md:leading-[40px] md:mb-8 lg:text-[60px] lg:leading-[74px]">
         Compare Features
       </h1>
@@ -16,21 +16,30 @@ function CompareFeatures() {
               </th>
               <th className="border-b-[1px] border-r-[1px] border-[#263741] rounded-md w-[70px] md:w-[120px] lg:w-[300px] lg:pb-4">
                 <div className="text-[10px] text-[#C56A4E] md:text-[18px] lg:text-[40px]">BRONZE</div>
-                <button className="hidden w-[275px] h-[54px] bg-[#C56A4E] text-white rounded-[10px] lg:inline">
-                  Get it Now
-                </button>
+                <form action="mailto:cx@glamplus.in">
+                  <input type="hidden" name="subject" value="Bronze Package Purchase" />
+                  <button className="hidden w-[275px] h-[54px] bg-[#C56A4E] text-white rounded-[10px] lg:inline">
+                    Get it Now
+                  </button>
+                </form>
               </th>
               <th className="border-b-[1px] border-r-[1px] border-[#263741] rounded-md w-[70px] md:w-[120px] lg:w-[300px] lg:pb-4">
                 <div className="text-[10px] text-[#B9B9B9] md:text-[18px] lg:text-[40px]">SILVER</div>
-                <button className="hidden w-[275px] h-[54px] bg-[#B9B9B9] text-white rounded-[10px] lg:inline">
-                  Get it Now
-                </button>
+                <form action="mailto:cx@glamplus.in">
+                  <input type="hidden" name="subject" value="Silver Package Purchase" />
+                  <button className="hidden w-[275px] h-[54px] bg-[#B9B9B9] text-white rounded-[10px] lg:inline">
+                    Get it Now
+                  </button>
+                </form>
               </th>
               <th className="border-b-[1px] border-[#263741] rounded-md w-[70px] md:w-[120px] lg:w-[300px] lg:pb-4">
                 <div className="text-[10px] text-[#FF9F24] md:text-[18px] lg:text-[40px]">GOLD</div>
-                <button className="hidden w-[275px] h-[54px] bg-[#FF9F24] text-white rounded-[10px] lg:inline">
-                  Get it Now
-                </button>
+                <form action="mailto:cx@glamplus.in">
+                  <input type="hidden" name="subject" value="Gold Package Purchase" />
+                  <button className="hidden w-[275px] h-[54px] bg-[#FF9F24] text-white rounded-[10px] lg:inline">
+                    Get it Now
+                  </button>
+                </form>
               </th>
             </tr>
           </thead>
