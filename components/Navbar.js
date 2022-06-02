@@ -9,14 +9,14 @@ function Navbar() {
       <div className="hidden lg:flex h-full items-center justify-between px-10 max-w-[1800px] m-auto">
         <div className="flex items-center gap-6">
           <Image src="/logo.png" width="112" height="76" />
-          <Link href="/">Features</Link>
-          <Link href="/#">Beauty Products</Link>
+          <Link href="#features">Features</Link>
+          <Link href="https://marketplace.glamplus.in/">Beauty Products</Link>
           <Link href="/#">Pricing</Link>
-          <Link href="/#">About</Link>
+          <Link href="/about.html">About</Link>
           <Link href="/careers.html">Careers</Link>
         </div>
         <div>
-          <Link href="/#">Log In</Link>
+          <Link href="https://app.glamplus.in">Log In</Link>
           <button className="free-btn ml-8 h-[66px] w-[197px]">Try For Free</button>
         </div>
       </div>
@@ -36,12 +36,12 @@ function Navbar() {
             <Image src="/logo.png" width="54" height="38" />
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
+            <Link href="#features">
               <a className="block p-4">Features</a>
             </Link>
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
+            <Link href="https://marketplace.glamplus.in/">
               <a className="block p-4">Beauty Products</a>
             </Link>
           </li>
@@ -51,18 +51,18 @@ function Navbar() {
             </Link>
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
+            <Link href="/about.html">
               <a className="block p-4">About</a>
             </Link>
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
-              <a className="block p-4">Carreers</a>
+            <Link href="/careers.html">
+              <a className="block p-4">Careers</a>
             </Link>
           </li>
           <li className="border-b border-inherit">
-            <Link href="#">
-              <a className="block p-4">Login</a>
+            <Link href="https://app.glamplus.in">
+              <a className="block p-4">Log In</a>
             </Link>
           </li>
           <li className="border-b border-inherit">

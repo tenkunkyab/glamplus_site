@@ -3,7 +3,7 @@ import React from "react";
 
 function Manage() {
   return (
-    <div className="bg-[#F5F7FA] h-full py-32 lg:min-h-[0px]">
+    <div id="features" className="bg-[#F5F7FA] h-full py-32 lg:min-h-[0px]">
       <div className="pb-10">
         <h1 className="font-[600] text-[20px] leading-[25px] text-center sm:text-[28px] sm:leading-[34px] md:text-[34px] md:leading-[40px] lg:text-[60px] lg:leading-[74px]">
           A Complete Solution for your <br /> Business Needs
