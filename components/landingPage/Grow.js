@@ -26,7 +26,8 @@ function Grow() {
               Grow your business with loyal clients
             </h1>
             <p className="text-[#6C6C6C] text-[10px] leading-[15px] font-[400] tracking-[-0.017em] sm:text-[13px] sm:leading-[20px] md:text-[15px] md:leading-[25px] xl:text-[18px] xl:leading-[30px]">
-              That&apos;s why, we&apos;ve built our software around making sure that you can use your salon as a marketing tool.
+              That&apos;s why, we&apos;ve built our software around making sure that you can use your salon as a
+              marketing tool.
             </p>
             <div className="my-8 flex items-center justify-center md:hidden">
               <Image src="/LandingPageImg/growMobile.png" width="300" height="327" />
@@ -39,9 +40,12 @@ function Grow() {
               ))}
             </ul>
             <div className="flex justify-center mt-8 md:justify-start">
-              <button className="free-btn text-[12px] w-[306px] h-[36px] lg:h-[66px] lg:text-[20px]">
-                Start Growing Now
-              </button>
+              <form action="mailto:cx@glamplus.in">
+                <input type="hidden" name="subject" value="Schedule a Demo" />
+                <button className="free-btn text-[12px] w-[306px] h-[36px] lg:h-[66px] lg:text-[20px]" type="submit">
+                  Start Growing Now
+                </button>
+              </form>
             </div>
           </div>
         </div>

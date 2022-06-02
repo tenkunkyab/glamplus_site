@@ -56,7 +56,12 @@ function Experience() {
               ))}
             </ul>
             <div className="flex justify-center mt-8 md:justify-start">
-              <button className="free-btn text-[12px] w-[306px] h-[36px] lg:h-[66px] lg:text-[20px]">Start Now</button>
+              <form action="mailto:cx@glamplus.in">
+                <input type="hidden" name="subject" value="Schedule a Demo" />
+                <button className="free-btn text-[12px] w-[306px] h-[36px] lg:h-[66px] lg:text-[20px]" type="submit">
+                  Start Now
+                </button>
+              </form>
             </div>
           </div>
         </div>

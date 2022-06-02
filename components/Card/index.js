@@ -19,7 +19,7 @@ function Card({
       <div
         className={`circularImg w-[200px] h-[200px] bg-[#EBF1F8] ${imgClass}`}
       >
-        <Image src={imgSrc} width={"80%"} height={"80%"} alt="Instagram icon" />
+        <Image src={imgSrc} width={"80%"} height={"80%"} alt={title} />
       </div>
       {/* text */}
       <div className="flex flex-col items-center text-center gap-[15px]">

@@ -6,7 +6,6 @@ import useWindowSize from "../../utils/useWindowSize";
 
 function ContactForm({ className }) {
   const { width } = useWindowSize();
-
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -17,9 +16,19 @@ function ContactForm({ className }) {
       note: "",
     },
     validate: validateForm,
-    onSubmit: () => {
-      alert("Form submitted");
-      setSubmitted(true);
+    onSubmit: (values, { resetForm }) => {
+      let body = "Hello,\nKindly reach out to the below details\n";
+      body += Object.entries(values).map((item) => `\n${item[0]} : ${item[1]}`);
+      window
+        .open(
+          "mailto:cx@glamplus.in?subject=" +
+            encodeURIComponent("New Client interested") +
+            "&body=" +
+            encodeURIComponent(body),
+          "_blank"
+        )
+        .focus();
+      resetForm();
     },
   });
 
